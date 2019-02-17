@@ -1,6 +1,6 @@
-class Calculator
-
-def self.sum(a, b)
+class Calculate
+  
+  def self.sum(a, b)
     a.to_i + b.to_i
   end
 
@@ -15,5 +15,6 @@ def self.sum(a, b)
   def self.divide(a, b)
   	a.to_i / b.to_i
   end
+
 
 end
